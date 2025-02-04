@@ -1,0 +1,8 @@
+The following file was modified - 
+Text_Summarization_Project\.venv\Lib\site-packages\ensure\main.py
+assertRaisesRegex is used as replacement for assertRaisesRegexp in Python 3.11+
+
+line 922 - ensure_raises_regex = unittest_case.assertRaisesRegexp
+
+line 633 - return unittest_case.assertRaisesRegexp(expected_exception, expected_regexp, self._orig_subject,
+                                                *self._args, **self._kwargs)
